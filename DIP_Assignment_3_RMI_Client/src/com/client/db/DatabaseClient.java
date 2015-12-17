@@ -171,9 +171,6 @@ public class DatabaseClient {
 		int i;
 		int j;
 		
-		printByteRecord(recordsArray.get(1));
-		printByteRecord(recordsArray.get(recordsArray.size()-1));
-		
 		tempRecordsArray = new ArrayList<ByteRecord>(numRecords);
 		tempReadRecordsArray = new ArrayList<ByteRecord>();
 		
