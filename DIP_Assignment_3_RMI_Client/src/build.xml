@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to generate a Jar file --> 
+<project name="DbClient" default="CreateJar_DatabaseClient">
+  <target name="CreateJar_DatabaseClient" description="Create DatabaseClient Jar file">
+        <jar jarfile="DatabaseClient.jar" basedir="." includes="com/client/db/*.class" />
+  </target>
+</project>

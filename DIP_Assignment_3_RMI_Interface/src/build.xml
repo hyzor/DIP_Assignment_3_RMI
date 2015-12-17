@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to generate a Jar file --> 
+<project name="DbInterface" default="CreateJar_Database">
+  <target name="CreateJar_Database" description="Create Database Jar file">
+        <jar jarfile="Database.jar" basedir="." includes="com/interf/db/*.class" />
+  </target>
+</project>
